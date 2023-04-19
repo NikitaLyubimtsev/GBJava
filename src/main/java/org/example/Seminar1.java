@@ -5,7 +5,7 @@ import java.util.Random;
 public class Seminar1 {
 
     public static void main(String[] args) {
-        
+
         int i = new Random().nextInt(2000);
         int n = Integer.toBinaryString(i).length() - 1;
 
